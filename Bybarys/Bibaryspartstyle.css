@@ -6,7 +6,7 @@
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif}
-.theme-dark{background:#111;color:var(--white)}
+.theme-dark{background:#111;color:var(--white);min-height: 100vh;display: flex;flex-direction: column;}
 
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 .row{display:flex;align-items:center;justify-content:space-between}
