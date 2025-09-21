@@ -204,3 +204,7 @@
             font-size: 10px; 
             margin-right: 50px;
         }
+
+        .header_list a:hover {
+    color: #b6b6b6;
+}

@@ -223,3 +223,7 @@ header img {
     font-size: 10px; /* мелкий шрифт */
     margin-right: 50px;
 }
+
+.header_list a:hover {
+    color: #b6b6b6;
+}

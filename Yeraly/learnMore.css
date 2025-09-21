@@ -83,3 +83,7 @@
   color: #444;
   padding: 0 18px 20px;
 }
+
+.header_list a:hover {
+    color: #b6b6b6;
+}

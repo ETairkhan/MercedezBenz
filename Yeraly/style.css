@@ -165,3 +165,7 @@ header img {
 .car a:hover {
   text-decoration: underline;
 }
+
+.header_list a:hover {
+    color: #b6b6b6;
+}
