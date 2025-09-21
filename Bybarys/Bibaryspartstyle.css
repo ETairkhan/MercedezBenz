@@ -65,10 +65,6 @@ input{background:#0f1216;color:#fff;border:1px solid rgba(255,255,255,.1);border
 input::placeholder{color:#9aa1aa}
 .form-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:8px}
 
-/* Footer */
-footer{border-top:1px solid rgba(255,255,255,.08);background:#0b0c0e}
-.foot{padding:18px 0;color:#9aa1aa;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
-
 
 header {
     display: flex;
