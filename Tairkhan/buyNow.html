@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="buyNow.css">
 </head>
 <body>
+    <!-- Flexbox Navigation -->
     <header>
-        <a href="../Yeraly/Mainpage.html"><img src="icons/merslogo.svg" alt="Mercedes-Benz Logo"></a>
-        <nav class="header_list">
-            <a href="../David/cclass.html">Сиданы - С класс</a>
-            <a href="../Bibarys/Eclass.html">Седаны - Е класс</a>
-            <a href="../Tairkhan/sclass.html">Седаны - S класс</a>
-            <a href="../Bibarys/news.html">Новости</a>
-            <a href="../David/special.html">Спец предложения</a>
+        <a href="../Yeraly/Mainpage.html"><img src="icons/merslogo.svg" alt="Mercedes-Benz Logo" class="logo"></a>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="../David/cclass.html">Седаны - С класс</a></li>
+                <li><a href="../Bibarys/Eclass.html">Седаны - Е класс</a></li>
+                <li><a href="../Tairkhan/sclass.html">Седаны - S класс</a></li>
+                <li><a href="../Bibarys/news.html">Новости</a></li>
+                <li><a href="../David/special.html">Спец предложения</a></li>
+            </ul>
         </nav>
     </header>
 
- 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1>Contact Mercedes-Benz</h1>
@@ -26,7 +29,7 @@
         </div>
     </section>
 
-   
+    <!-- Form Section with Grid Layout -->
     <section class="form-section">
         <div class="container">
             <div class="form-container">
@@ -99,8 +102,57 @@
         </div>
     </section>
 
-    <footer style="background:#222; color:#fff; text-align:center; padding:18px 0; font-size:1rem;margin-top: auto;">
-    Tairkhan &nbsp;|&nbsp; David &nbsp;|&nbsp; Yeraly &nbsp;|&nbsp; Bibarys &nbsp; SE-2412
+    <!-- Card Section with Flexbox -->
+    <section class="cards-section">
+        <div class="container">
+            <h2>Why Choose Mercedes-Benz?</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h3 class="card-title">Premium Quality</h3>
+                    <p class="card-text">Experience unmatched craftsmanship and attention to detail in every Mercedes-Benz vehicle.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔧</div>
+                    <h3 class="card-title">Expert Service</h3>
+                    <p class="card-text">Our certified technicians provide exceptional maintenance and repair services.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3 class="card-title">Comprehensive Warranty</h3>
+                    <p class="card-text">Enjoy peace of mind with our extensive warranty and roadside assistance programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery with Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Explore Our Models</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="icons/c-class.jpg" alt="C-Class" class="gallery-img">
+                    <div class="gallery-caption">C-Class</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="icons/e-class.jpg" alt="E-Class" class="gallery-img">
+                    <div class="gallery-caption">E-Class</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="icons/s-class.jpg" alt="S-Class" class="gallery-img">
+                    <div class="gallery-caption">S-Class</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="icons/g-class.jpg" alt="G-Class" class="gallery-img">
+                    <div class="gallery-caption">G-Class</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Tairkhan | David | Yeraly | Bibarys | SE-2412
     </footer>
 </body>
 </html>
