@@ -227,6 +227,7 @@ header img {
 .grid-footer {
     grid-area: footer;
     background: #222;
+    margin-top: 0;
     color: white;
     padding: 15px;
     text-align: center;
@@ -275,6 +276,8 @@ header img {
     padding: 15px;
     transform: translateY(100%);
     transition: transform 0.3s;
+    text-align: center;
+    font-weight: 500;
 }
 
 .gallery-item:hover .gallery-img {
