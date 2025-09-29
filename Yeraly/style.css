@@ -20,6 +20,9 @@ header img {
     height: 35px; 
 }
 
+
+
+
 .header_list a {
     color: white;
     margin: 0 8px;
@@ -28,7 +31,7 @@ header img {
     margin-right: 50px;
 }
 
-/* Герой-блок */
+
 .hero {
     height: 100vh; 
     position: relative;
@@ -136,36 +139,57 @@ header img {
 
 
 .cars {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;                
+    flex-wrap: wrap;       
+    margin-top: 40px;
 }
 
 .car {
-  text-align: center;
-  max-width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width:400px;             
+    box-sizing: border-box;
 }
 
 .car img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 .car h3 {
-  margin: 20px 0 10px;
-  font-size: 20px;
+    margin: 10px 0 8px;
+    font-size: 20px;
 }
 
-.car a {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 16px;
+.car p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-.car a:hover {
-  text-decoration: underline;
+.car:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-.header_list a:hover {
-    color: #b6b6b6;
+.car button {
+    display: block;           
+    margin: 0 auto;           
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.car button:hover {
+    background: #444;
 }
