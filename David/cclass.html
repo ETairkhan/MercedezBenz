@@ -1,84 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mercedes-Benz C-Class Sedan</title>
-    <link rel="stylesheet" href="cclass.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercedes-Benz C-Class Sedan</title>
+<link rel="stylesheet" href="cclass.css">
 </head>
 <body>
 
-
- <header>
-        <a href="../Yeraly/Mainpage.html"><img src="img/logo.png" alt="Mercedes-Benz Logo"></a>
-        <nav class="header_list">
-            <a href="../David/cclass.html">Сиданы - С класс</a>
-            <a href="../Bibarys/Eclass.html">Седаны - Е класс</a>
-            <a href="../Tairkhan/sclass.html">Седаны - S класс</a>
-            <a href="../Bibarys/news.html">Новости</a>
-            <a href="../David/special.html">Спец предложения</a>
-        </nav>
-    </header>
-
+<header>
+    <a href="../Yeraly/Mainpage.html"><img src="img/logo.png" alt="Mercedes-Benz Logo"></a>
+    <nav class="header_list">
+        <a href="../David/cclass.html">Седаны - С класс</a>
+        <a href="../Bibarys/Eclass.html">Седаны - Е класс</a>
+        <a href="../Tairkhan/sclass.html">Седаны - S класс</a>
+        <a href="../Bibarys/news.html">Новости</a>
+        <a href="../David/special.html">Спец предложения</a>
+    </nav>
+</header>
 
 <div class="logo">
     <h1>Новый C-Class Sedan</h1>
 </div>
 
-<div class="container">
+<!-- GRID LAYOUT -->
+<div class="page-layout">
+    <aside class="sidebar">
+        <h3>Меню</h3>
+        <ul>
+            <li><a href="#">Комплектации</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Тест-драйв</a></li>
+        </ul>
+    </aside>
 
-    <section class="section gallery">
-        <h2>Экстерьер</h2>
-        <img src="img/c-ext1.jpg" alt="C-Class Exterior 1">
-        <img src="img/c-ext2.jpg" alt="C-Class Exterior 2">
-        <img src="img/c-ext3.jpg" alt="C-Class Exterior 3">
-    </section>
-
-    <section class="section models">
-        <div class="model-card">
-            <img src="img/c180.jpg" alt="C 180">
-            <div class="info">
-                <h3>C 180</h3>
-                <div class="price">От 31 160 000 ₸</div>
+    <main class="main">
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="img/c-ext1.jpg" alt="C-Class Exterior 1">
+                <div class="gallery-caption">Экстерьер 1</div>
             </div>
-        </div>
-        <div class="model-card">
-            <img src="img/c200.jpg" alt="C 200">
-            <div class="info">
-                <h3>C 200</h3>
-                <div class="price">От 34 310 000 ₸</div>
+            <div class="gallery-item">
+                <img src="img/c-ext2.jpg" alt="C-Class Exterior 2">
+                <div class="gallery-caption">Экстерьер 2</div>
             </div>
-        </div>
-        <div class="model-card">
-            <img src="img/amg43.jpg" alt="AMG C 43 4MATIC">
-            <div class="info">
-                <h3>AMG C 43 4MATIC</h3>
-                <div class="price">От 50 000 000 ₸</div>
+            <div class="gallery-item">
+                <img src="img/c-ext3.jpg" alt="C-Class Exterior 3">
+                <div class="gallery-caption">Экстерьер 3</div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section features">
-        <div class="feature-item">
-            <img src="img/feature-digital-light.jpg" alt="Digital Light">
-            <h4>Фары DIGITAL LIGHT</h4>
-            <p>Технологичные HD-фары с функцией проекции, адаптивным освещением и ярким дизайном.</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/feature-interior.jpg" alt="Интерьер">
-            <h4>Интерьер премиум-класса</h4>
-            <p>Мультиконтурные сиденья, OLED-дисплей, атмосфера комфорта и технологий.</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/feature-assist.jpg" alt="Системы помощи">
-            <h4>Системы помощи водителю</h4>
-            <p>Driving Assistance, пакет безопасности, ассистенты при манёврах и в городском трафике.</p>
-        </div>
-    </section>
+        <section class="models">
+            <div class="model-card">
+                <img src="img/c180.jpg" alt="C 180">
+                <div class="info">
+                    <h3>C 180</h3>
+                    <div class="price">От 31 160 000 ₸</div>
+                </div>
+            </div>
+            <div class="model-card">
+                <img src="img/c200.jpg" alt="C 200">
+                <div class="info">
+                    <h3>C 200</h3>
+                    <div class="price">От 34 310 000 ₸</div>
+                </div>
+            </div>
+            <div class="model-card">
+                <img src="img/amg43.jpg" alt="AMG C 43 4MATIC">
+                <div class="info">
+                    <h3>AMG C 43 4MATIC</h3>
+                    <div class="price">От 50 000 000 ₸</div>
+                </div>
+            </div>
+        </section>
 
+        <section class="features">
+            <div class="feature-item">
+                <img src="img/feature-digital-light.jpg" alt="Digital Light">
+                <h4>Фары DIGITAL LIGHT</h4>
+                <p>HD-фары с функцией проекции.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/feature-interior.jpg" alt="Интерьер">
+                <h4>Интерьер премиум-класса</h4>
+                <p>Мультиконтурные сиденья, OLED-дисплей.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/feature-assist.jpg" alt="Системы помощи">
+                <h4>Системы помощи водителю</h4>
+                <p>Ассистенты при манёврах и в городском трафике.</p>
+            </div>
+        </section>
+    </main>
 </div>
 
-<footer style="background:#222; color:#fff; text-align:center; padding:18px 0; font-size:1rem;">
+<footer>
     Tairkhan &nbsp;|&nbsp; David &nbsp;|&nbsp; Yeraly &nbsp;|&nbsp; Bibarys &nbsp; SE-2412
 </footer>
 
