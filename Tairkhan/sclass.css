@@ -200,11 +200,29 @@ header img {
     padding: 20px;
 }
 
+.grid-sidebar h3{
+    padding-bottom: 10px;
+}
+.grid-sidebar ul{
+    padding-left: 10px;
+}
+
+
 .grid-main {
     grid-area: main;
     padding: 20px;
     background: white;
 }
+
+.grid-main p{
+     font-size: 1.4em;
+}
+
+.grid-main h3{
+     font-size: 1.7em;
+     padding-bottom:30px;
+}
+
 
 .grid-footer {
     grid-area: footer;
